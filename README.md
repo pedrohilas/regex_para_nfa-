@@ -1,9 +1,14 @@
-#regex_to_nfa
+# Regex to NFA Converter
 
-Conversor de Expressões Regulares para NFA em OCaml
+This OCaml project converts **Regular Expressions (Regex)** into **Nondeterministic Finite Automata (NFA)**. It is useful for students and researchers working with **formal languages** and **automata theory**.
 
+## ✨ Features
+- Converts **Regular Expressions** into **NFA** using **Thompson’s Construction**.
+- Supports **concatenation**, **union (`|`)**, and **Kleene star (`*`)**.
+- Outputs the **NFA structure** in a formatted representation.
+- Handles **epsilon (ε) transitions**.
 
-
-Este projeto em OCaml converte expressões regulares para autómatos finitos não-determinísticos (NFA). O objetivo é criar um NFA a partir de uma expressão regular fornecida pelo utilizador, imprimindo o autómato num formato estruturado.
-
-Para correr o Programa " cat test/test01.in | dune exec -- ./re.exe"
+## 🚀 Installation & Usage
+To run the program, use:
+```bash
+cat test/test01.in | dune exec -- ./re.exe
